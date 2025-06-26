@@ -1,0 +1,48 @@
+{% extends 'paginas/base.html' %}
+
+{% block title %}paquita{% endblock %}
+{% load static %}
+{% block content %}
+<h1>Paquita</h1>
+
+<style>
+p{
+    size: 10px;
+    color: wheat;
+    text-align: left;
+}
+</style>
+<div>
+  <p style="float: left; width: 60%;">Sistema de adopción: <br>
+Llego a casa, desde la calle<br>
+
+1° Gato<br>
+Nombre: Paquita (Hembra)<br>
+Raza: Desconocida, indeterminada<br>
+Procedimiento de incio para adopción <br>
+1.- Exames de inmunodeficiencia felina (VIF)<br>
+2.-Esterilización a los 4 meses <br>
+Características físicas: <br>
+Pelaje: Corto, denso, doble capa de pelo, color gris con brillo plateado<br>
+Ojos: Grandes, almendrados y de color verde esmeralda<br>
+Cuerpo: Delgado y esbelto, con patas largas y delgadas y cabeza redonda<br>
+Orejas: Grandes, anchas en la base y puntiagudas<br>
+Tamaño: Mediano, con un peso de 4 kilos aproximadamente.<br>
+Personalidad:<br>
+Inteligentes y perceptivos: Se adaptan bien a diferentes entornos y situaciones. <br>
+Leales y cariñosos: Establecen vínculos fuertes con sus familias y son muy afectuosos con sus dueños. <br>
+Reservados con extraños: Pueden ser tímidos y distantes con personas que no conocen. <br>
+Tranquilos y juguetones: Prefieren ambientes tranquilos, pero también disfrutan de momentos de juego. <br>
+Cuidados:<br>
+Aseo: Requieren poco aseo debido a su pelaje corto, pero un cepillado ocasional ayuda a mantenerlo suave y sedoso. <br>
+Estimulación mental: Necesitan juguetes y actividades para mantenerse mentalmente estimulados. <br>
+Ambiente tranquilo: Les gusta tener un lugar tranquilo y privado para descansar. <br>
+Adaptación gradual a nuevos entornos: Es importante permitirles adaptarse lentamente a situaciones nuevas. <br>
+</p>
+  <img src="{% static 'imagenes/paqui (1).jpeg' %}" alt="Imagen" style="float: right; width: 250px;height: 250px;">
+  <img src="{% static 'imagenes/paqui (2).jpeg' %}" alt="Imagen" style="float: right; width: 250px;height: 250px;">
+  <img src="{% static 'imagenes/paqui (3).jpeg' %}" alt="Imagen" style="float: right; width: 250px;height: 250px;">
+  <img src="{% static 'imagenes/paqui (4).jpg' %}" alt="Imagen" style="float: left; width: 250px;height: 250px;">
+</div>
+
+{% endblock %}

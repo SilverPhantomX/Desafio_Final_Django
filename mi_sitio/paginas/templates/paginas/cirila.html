@@ -1,0 +1,57 @@
+{% extends 'paginas/base.html' %}
+
+{% block title %}Cirila{% endblock %}
+{% load static %}
+{% block content %}
+<h1>Cirila</h1>
+
+<style>
+h1{
+    color: wheat;
+}
+p{
+    size: 10px;
+    color: wheat;
+    text-align: left;
+}
+</style>
+<div>
+  <p style="float: left; width: 60%;">
+Sistema de adopción: <br>
+a)	Llego a casa desde la calle.<br>
+
+3° Gato<br>
+Nombre: Cirila (Hembra)<br>
+Raza: Desconocida, indeterminada<br>
+Procedimiento de incio para adopción <br>
+1.- Examen de inmunodeficiencia felina (VIF)<br>
+2.- Examen de Virus de la leucemia felina<br>
+2.-Esterilización a los 4 meses <br>
+
+Características físicas: <br>
+Pelaje: Largo, denso, de color negro. <br>
+Ojos: Grandes, almendrados y de color amarilo<br>
+Cuerpo: Esbelto, ágil, con patas largas y cabeza redonda en forma de cuña<br>
+Orejas: Grandes, anchas en la base, puntiagudas y pelo en la punta<br>
+Tamaño: pequeño, con un peso de 3 kilos aproximadamente ( aún se encuentra en proceso de desarrollo)<br>
+Personalidad:<br>
+Inteligentes y perceptivos: Se adaptan con dificultad a sus entorno. <br>
+Leales y cariñosos: Establece vínculos fuertes con sus familias sobre un solo miembro de la familia principalmente. <br>
+Reservados con extraños: Pueden ser tímidos y asustadizo con las personas y situaciones diferente en la casa. <br>
+Tranquilos y juguetones: Prefieren jugar con juguetes y las personas de su confianza<br>
+Cuidados:<br>
+Aseo: Requiere cepillado por el pelo largo<br>
+Estimulación mental: Necesitan juguetes y actividades para mantenerse mentalmente estimulados. <br>
+Ambiente tranquilo: Busca a su humano de más confianza para mantenerse cerca. <br>
+Adaptación gradual a nuevos entornos: Es importante permitirles adaptarse lentamente a situaciones nuevas. <br>
+
+  </p>
+
+  <img src="{% static 'imagenes/cirila.jpeg' %}" alt="Imagen" style="float: right; width: 250px;height: 250px;">
+  <img src="{% static 'imagenes/cirila (1).jpg' %}" alt="Imagen" style="float: right; width: 250px;height: 250px;">
+  <img src="{% static 'imagenes/cirila (2).jpg' %}" alt="Imagen" style="float: right; width: 250px;height: 250px;">
+  <img src="{% static 'imagenes/cirila (3).jpg' %}" alt="Imagen" style="float: left; width: 250px;height: 250px;">
+</div>
+
+
+{% endblock %}

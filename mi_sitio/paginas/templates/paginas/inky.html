@@ -1,0 +1,52 @@
+{% extends 'paginas/base.html' %}
+
+{% block title %}Inky{% endblock %}
+{% load static %}
+{% block content %}
+<h1>Inky</h1>
+
+<style>
+h1{
+    color: wheat;
+}
+p{
+    size: 10px;
+    color: wheat;
+    text-align: left;
+}
+</style>
+<div>
+  <p style="float: left; width: 60%;">Sistema de adopción: <br>
+a)	Se encontró en la costa de Osorno y se trajo a la cuidad de Temuco para esterilización.<br>
+
+2° Gato<br>
+Nombre: Inky ( Macho)<br>
+Raza: Desconocida, indeterminada<br>
+Procedimiento de incio para adopción <br>
+1.- Exames de inmunodeficiencia felina (VIF)<br>
+2.-Esterilización a los 4 meses <br>
+Características físicas: <br>
+Pelaje: Corto, denso, 3 colores. <br>
+Ojos: Grandes, almendrados y de color verde esmeralda<br>
+Cuerpo: Macizo y corpulento, Musculoso, con patas largas y cabeza redonda<br>
+Orejas: Grandes, anchas en la base y puntiagudas<br>
+Tamaño: Mediano, con un peso de 6 a 7 kilos aproximadamente.<br>
+Personalidad:<br>
+Inteligentes y perceptivos: Se adaptan bien a diferentes entornos y situaciones. <br>
+Leales y cariñosos: Establece vínculos fuertes con sus familias y son muy afectuosos con sus dueños. <br>
+Reservados con extraños: Pueden ser tímidos y distantes con personas que no conocen. <br>
+Tranquilos y juguetones: Prefieren ambientes tranquilos, pero también disfrutan de momentos de juego. <br>
+Cuidados:<br>
+Aseo: Requieren poco aseo debido a su pelaje corto<br>
+Estimulación mental: Necesitan juguetes y actividades para mantenerse mentalmente estimulados. <br>
+Ambiente tranquilo: Les gusta tener un lugar tranquilo y privado para descansar. <br>
+Adaptación gradual a nuevos entornos: Es importante permitirles adaptarse lentamente a situaciones nuevas. <br>
+  </p>
+
+  <img src="{% static 'imagenes/inky (1).jpg' %}" alt="Imagen" style="float: right; width: 250px;height: 250px;">
+  <img src="{% static 'imagenes/inky (2).jpg' %}" alt="Imagen" style="float: right; width: 250px;height: 250px;">
+  <img src="{% static 'imagenes/inky (3).jpg' %}" alt="Imagen" style="float: right; width: 250px;height: 250px;">
+  <img src="{% static 'imagenes/inky (4).jpg' %}" alt="Imagen" style="float: left; width: 250px;height: 250px;">
+</div>
+
+{% endblock %}
